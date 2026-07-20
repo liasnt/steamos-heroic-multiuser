@@ -40,19 +40,37 @@ Before installing, you need to switch to Desktop Mode on your device:
 - **Heroic Games Launcher**: Must be installed via the **Discover Store** in Desktop Mode.
 ---
 
-## One-Line Installation
+## Installation
 
-Open the **Konsole** app on your Steam Machine / Steam Deck (Desktop Mode) and paste the following command:
+### Method 1: Local Terminal (Desktop Mode)
+
+1. Switch to **Desktop Mode** on your SteamOS device.
+2. Open **Konsole**.
+3. Run the following command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs/heads/main/install_Heroic-Multiuser.sh | bash
+curl -sSL [https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs/heads/main/install_Heroic-Multiuser.sh](https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs/heads/main/install_Heroic-Multiuser.sh) | bash
 ```
+---
 
+### Method 2: Remote via SSH (For Power Users)
+
+If you have SSH enabled on your SteamOS device:
+
+1. **Connect from your PC terminal:**
+   ```bash
+   ssh deck@<your-steamos-ip>
+   ```
+
+2. **Run the installation script:**
+   ```bash
+   curl -sSL [https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs/heads/main/install_Heroic-Multiuser.sh](https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs/heads/main/install_Heroic-Multiuser.sh) | bash
+   ```
 ---
 
 ## How to Setup on Steam / Game Mode
 
-1. Switch to **Desktop Mode** on your Steam Machine / Steam Deck.
+1. On your SteamOS device, switch to **Desktop Mode** if you haven't already.
 2. Open **Steam**.
 3. Add the script to Steam using either method:
    - **Option A (Recommended):** In the bottom-left corner of Steam, click **+ Add a Game** > **Add a Non-Steam Game...**
