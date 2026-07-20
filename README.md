@@ -4,7 +4,7 @@ An automated utility for **SteamOS (Steam Machine / Steam Deck)** that dynamical
 
 ---
 
-## 🤔 Why This Exists?
+## Why This Exists?
 
 SteamOS turns devices like the **Steam Deck** or a living room **Steam Machine** into shared family consoles. While Steam native games handle account switching seamlessly, third-party launchers like **Heroic Games Launcher** treat the entire system as a single user.
 
@@ -16,7 +16,7 @@ This script fixes that completely! It automatically detects which Steam user is 
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Dynamic Steam User Detection**: Reads the active Steam profile from `loginusers.vdf` (with automated VDF registry fallback).
 - **Complete Profile Isolation**: Separates Heroic Games Launcher settings, Epic Games (`legendary`), and GOG configurations per Steam user.
@@ -25,7 +25,7 @@ This script fixes that completely! It automatically detects which Steam user is 
 
 ---
 
-## 🖥️ How to Access Desktop Mode
+## How to Access Desktop Mode
 
 Before installing, you need to switch to Desktop Mode on your device:
 1. Press the **STEAM** button on your Steam Machine / Steam Deck (or open the Power menu on SteamOS).
@@ -34,13 +34,13 @@ Before installing, you need to switch to Desktop Mode on your device:
 
 ---
 
-## 📋 Prerequisites & Compatibility
+## Prerequisites & Compatibility
 
 - **SteamOS**: Tested and verified on **SteamOS v3.8.16** (Steam Machine).
 - **Heroic Games Launcher**: Must be installed via the **Discover Store** in Desktop Mode.
 ---
 
-## 🚀 One-Line Installation
+## One-Line Installation
 
 Open the **Konsole** app on your Steam Machine / Steam Deck (Desktop Mode) and paste the following command:
 
@@ -50,7 +50,7 @@ curl -sSL https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs
 
 ---
 
-## ⚙️ How to Setup on Steam / Game Mode
+## How to Setup on Steam / Game Mode
 
 1. Switch to **Desktop Mode** on your Steam Machine / Steam Deck.
 2. Open **Steam**.
@@ -68,7 +68,7 @@ curl -sSL https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 1. On launch, the script queries Steam's configuration files to identify the active user's short Steam ID.
 2. Creates isolated directories under:
@@ -78,12 +78,12 @@ curl -sSL https://raw.githubusercontent.com/liasnt/steamos-heroic-multiuser/refs
 
 ---
 
-## 🤝 Contributing & Issues
+## Contributing & Issues
 
 Found a bug or have a feature request? Feel free to open an issue or submit a Pull Request on this repository.
 
 ---
 
-## 📜 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more details.
