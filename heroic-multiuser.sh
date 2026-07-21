@@ -3,7 +3,7 @@
 # Title:        SteamOS Heroic Launcher - Dynamic Multi-User & Prefix Isolator
 # Description:  Isolates Heroic logins, configs, and Wine prefixes (including
 #               global game saves) dynamically based on the active Steam user.
-# Author:       The SteamOS Tinkerer
+# Author:       The SteamOS Tinkerer (Reddit: u/CiberOne)
 # Version:      1.0
 # Date:         2026-07-16
 # ==============================================================================
