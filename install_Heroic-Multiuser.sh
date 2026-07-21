@@ -3,7 +3,7 @@
 # Title:        SteamOS Heroic Launcher - Multi-User Installer
 # Description:  Automated setup script that downloads and installs the main
 #               script for the Heroic Multi-User & Prefix Isolator on SteamOS.
-# Author:       The SteamOS Tinkerer
+# Author:       The SteamOS Tinkerer (Reddit: u/CiberOne)
 # Version:      1.0
 # Date:         2026-07-16
 # ==============================================================================
