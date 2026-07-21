@@ -104,4 +104,4 @@ Found a bug or have a feature request? Feel free to open an issue or submit a Pu
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more details.
+Distributed under the GNU General Public License v3.0 (GPLv3). See `LICENSE` for more details.
