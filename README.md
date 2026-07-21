@@ -25,6 +25,14 @@ This script fixes that completely! It automatically detects which Steam user is 
 
 ---
 
+### Shared Storage & Game Installs
+To save disk space on SteamOS:
+* **Downloaded once:** Games are installed into a shared folder, so you don't need duplicate downloads for multiple users.
+* **Account-based Library:** Each user logs into their own Epic, GOG, or Prime account. To play a game already downloaded by another user, simply click **Install** in Heroic and point it to the shared folder — Heroic will verify the existing files in seconds without redownloading.
+* **Complete Isolation:** Game saves, wine prefixes, and settings remain 100% separate for each user thanks to the script.
+
+---
+
 ## How to Access Desktop Mode
 
 Before installing, you need to switch to Desktop Mode on your device:
